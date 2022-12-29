@@ -1,7 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 1%;
 }
 h1{font-size: 50px;
+}
+h3{
+    color: rgb(223, 7, 7);
 }
 span{
     color: rgb(43, 187, 43);
@@ -46,4 +50,28 @@ button{
 .Dream{
     position: relative;
     top: 30px;
+}
+.part-3{
+    background-image: url(media/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: -30px;
+}
+.Experiences{
+    height: 100%;
+
+    padding-top: 7%;
+    padding-bottom: 7%;
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 50px;
+}
+.slice-border1{
+    border-left: 7px solid rgba(255, 64, 0, 0.704); 
+}
+.slice-border2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(rgba(0, 0, 255, 0.537), rgba(0, 255, 255, 0.575));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
